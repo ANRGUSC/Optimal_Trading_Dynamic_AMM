@@ -1,5 +1,7 @@
-# Optimal_Trading_Dynamic_AMM
+# Optimal Trading on a Dynamic Curve Automated Market Maker
+## Abstract
+In the emerging realm of decentralized finance (DeFi), most of the existing Automated Market Maker (AMM) protocols used by major platforms like Uniswap and Curve are governed by a static mathematical equation, such as the constant product curve. One major shortcoming of these curves is that they require external forces to maintain the price of the liquidity pool (LP), subjecting the LP to loss due to arbitrage. A novel solution, the dynamic curve AMM, was recently proposed to ensure that the pool price always matches the market price, making the LP invulnerable to arbitrageurs. Dynamic curves, however, have a path-dependent trading problem, meaning that the number of trades and the distribution of trades affect the trader's gain. We show how to find the optimal trading policy for a dynamic AMM curve under several settings. We first show that in a zero-transaction-fee setting the optimal trading policy is to place infinitesimally small trades, resulting in zero slippage. Then, we present an algorithm that computes the optimal policy in a fixed-number-of-trade setting. Though the problem has an exponentially large search space, our algorithm utilizes dynamic programming to achieve a polynomial run-time. Finally, we generalize the solution to more complex settings, including a per-order-fee setting and a percentage-fee setting.
+## Code Implementation
+The `./dynamic programming for optimal trading.py` file is the software implementation of the "Dynamic Programming for Optimal Trading" in the paper. This code is capable of testing all mentioned settings in the paper.
 
-This code presents an implementation of the Optimal Trading policy for a dynamic constant product AMM. 
-
-See the included paper for details.
+Please see the included paper for more details.
