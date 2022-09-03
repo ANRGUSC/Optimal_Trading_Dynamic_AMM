@@ -4,4 +4,6 @@ In the emerging realm of decentralized finance (DeFi), most of the existing Auto
 ## Software Implementation
 The `./dynamic programming for optimal trading.py` file is the software implementation of the "Dynamic Programming for Optimal Trading" in the paper. This code is capable of testing all mentioned settings in the paper.
 
-Please see the included paper for more details.
+Please see the included paper pdf for more details. The work should be cited as follows: 
+
+Wang, Shuangge, and Bhaskar Krishnamachari. "Optimal Trading on a Dynamic Curve Automated Market Maker." 2022 IEEE International Conference on Blockchain and Cryptocurrency (ICBC). IEEE, 2022.
